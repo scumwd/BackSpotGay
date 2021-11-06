@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackSpotGay", "BackSpotGay\BackSpotGay.csproj", "{F63EBD53-9E33-4C14-A2E9-FF67E817833B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackSpotGay.BAC", "BackSpotGay.BAC\BackSpotGay.BAC.csproj", "{8E776833-0B7F-4CC8-AD68-34A9AFE63DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackSpotGay.DAL", "BackSpotGay.DAL\BackSpotGay.DAL.csproj", "{DE0AAE25-70A6-4AE6-9071-D68061ACDF73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F63EBD53-9E33-4C14-A2E9-FF67E817833B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63EBD53-9E33-4C14-A2E9-FF67E817833B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63EBD53-9E33-4C14-A2E9-FF67E817833B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63EBD53-9E33-4C14-A2E9-FF67E817833B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E776833-0B7F-4CC8-AD68-34A9AFE63DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E776833-0B7F-4CC8-AD68-34A9AFE63DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E776833-0B7F-4CC8-AD68-34A9AFE63DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E776833-0B7F-4CC8-AD68-34A9AFE63DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0AAE25-70A6-4AE6-9071-D68061ACDF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0AAE25-70A6-4AE6-9071-D68061ACDF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0AAE25-70A6-4AE6-9071-D68061ACDF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0AAE25-70A6-4AE6-9071-D68061ACDF73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

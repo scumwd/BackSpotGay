@@ -1,0 +1,12 @@
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/bin/Debug/net5.0/BackSpotGay.DAL.deps.json
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/bin/Debug/net5.0/BackSpotGay.DAL.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/bin/Debug/net5.0/ref/BackSpotGay.DAL.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/bin/Debug/net5.0/BackSpotGay.DAL.pdb
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.csproj.AssemblyReference.cache
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.AssemblyInfoInputs.cache
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.AssemblyInfo.cs
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.csproj.CoreCompileInputs.cache
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/ref/BackSpotGay.DAL.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/obj/Debug/net5.0/BackSpotGay.DAL.pdb

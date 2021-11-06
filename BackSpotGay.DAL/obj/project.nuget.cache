@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YtnXj6VB7CVLzhgVTyyG5vViJcAEulBhWF4mcVAUNoXd6I5x+pKqXql0cQJcxfD5i+h1pjfy2sgtUoFXnR5jkg==",
+  "success": true,
+  "projectFilePath": "/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay.DAL/BackSpotGay.DAL.csproj",
+  "expectedPackageFiles": [
+    "/Users/scumwd/.nuget/packages/npgsql/6.0.0-rc.2/npgsql.6.0.0-rc.2.nupkg.sha512",
+    "/Users/scumwd/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
