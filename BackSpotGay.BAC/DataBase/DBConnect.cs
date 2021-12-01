@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using BAC.DbHelper;
 using BackSpotGay.DAL;
 using BackSpotGay.DAL.ReqestToBD;
@@ -6,22 +7,14 @@ namespace BAC.DataBase
 {
     public class DBConnect
     {
-        public static string Create(string login, string password, string repeatpassword)
+        public static bool Create(string login, string password, string repeatpassword)
         {
-            if (string.Equals(password,repeatpassword) && (password!=null || password!=""))
+            if (string.Equals(password,repeatpassword))
             {
-                CreateUser.Create(CreateEntityUsers.CreateEntity(login, password));
-                return "Пользователь создан.";
+                CreateUser.Create(login,password);
+                return true;
             }
-            return "Пароли не совпадают.";
-        }
-
-        public static string ChekExist(string user, string password)
-        {
-            if (Chek.ChekExistUser(user, password))
-                return "Успешно!";
-            else
-                return "Неверный логин или пароль.";
+            return false;
         }
     }
 }

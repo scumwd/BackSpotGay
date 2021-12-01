@@ -26,8 +26,15 @@
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/staticwebassets/BackSpotGay.StaticWebAssets.xml
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/scopedcss/bundle/BackSpotGay.styles.css
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.RazorTargetAssemblyInfo.cache
-/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.csproj.CopyComplete
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.dll
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/ref/BackSpotGay.dll
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.pdb
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.genruntimeconfig.cache
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/BackSpotGay.csproj.CopyComplete

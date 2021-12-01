@@ -6,7 +6,7 @@ namespace BackSpotGay.DAL.ReqestToBD
 {
     public class CreateUser
     {
-        public static void Create(User user)
+        public static void Create(string login, string password)
         {
             using var con = new NpgsqlConnection(Connection.Connetionstring);
             try
@@ -15,8 +15,8 @@ namespace BackSpotGay.DAL.ReqestToBD
                 Console.WriteLine("Подключение открыто.");
                 string sql = "insert into users (login,password) values (@login,@password)";
                 using var cmd = new NpgsqlCommand(sql, con);
-                cmd.Parameters.AddWithValue("@login",user.Login);
-                cmd.Parameters.AddWithValue("@password", user.Password);
+                cmd.Parameters.AddWithValue("@login",login);
+                cmd.Parameters.AddWithValue("@password", password);
                 cmd.ExecuteNonQuery();
             }
             catch (NpgsqlException ex)
