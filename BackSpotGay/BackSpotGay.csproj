@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Cookie" Version="4.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
@@ -12,6 +13,20 @@
     <ItemGroup>
       <ProjectReference Include="..\BackSpotGay.BAC\BackSpotGay.BAC.csproj" />
       <ProjectReference Include="..\BackSpotGay.DAL\BackSpotGay.DAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="WeatherForecast.cs" />
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\image" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="wwwroot\image\login.jpeg" />
+      <Content Remove="wwwroot\image\loggin.jpeg" />
     </ItemGroup>
 
 </Project>

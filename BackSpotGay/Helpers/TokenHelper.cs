@@ -32,8 +32,9 @@ namespace BackSpotGay.Helpers
             var tokenHandler = new JwtSecurityTokenHandler();
             var key =  Convert.FromBase64String(Secret);
  
-            var claimsIdentity = new ClaimsIdentity(new[] { 
-                new Claim(ClaimTypes.Name, customer.Login)
+            var claimsIdentity = new ClaimsIdentity(new Claim[]{
+                new Claim(ClaimTypes.Name, customer.Login),
+                new Claim(ClaimTypes.NameIdentifier, customer.Id.ToString())
             });
             var signingCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature);
  

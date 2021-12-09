@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+            <link rel="stylesheet" href="css/stile.css">
+            <link rel="icon" href="~/image/spot-a-gay.svg">
+            <title>Spot-a-gay</title>
+            <style>
+                button[type="submit"] {
+                    width: 20px; 
+                    height: 20px;
+                    border: none;
+                    background: url("~/image/Group.svg") no-repeat 50% 50%; /* Параметры фона */
+                }
+            </style>
+
+</head>
+<body>
+<header class="header">
+    <div class="header__logo">
+        <a href='@Url.Action("Index","Home")'>
+            <img src="~/image/title.svg" alt="logo">
+        </a>
+        
+    </div>
+    <div class="header__navigmenu">
+        <div class="header__navigmenu-links">
+            <a href="">Новинки</a>
+            <a href="">Подкасты</a>
+            <a href="">Исполнители</a>
+            <a href="">Жанры</a>
+            <a href="">Плейлисты</a>
+            <a href="">Мы</a>
+            <a href="">FAQ</a>
+            <form>
+                <div class="search">
+                    <input type="search" class="navig-search" placeholder="Поиск" name="search" required>
+                    <button type="submit"></button>
+                </div>
+            </form>
+            <div class="header-authorization">
+                <a href='@Url.Action("Authorization", "Home")'>Войти</a>
+                <a href='@Url.Action("Registration","Home")'>Зарегестрироваться</a>
+            </div>
+        </div>      
+    </div>
+</header>
+
+@RenderBody()
+
+</body>
+</html>

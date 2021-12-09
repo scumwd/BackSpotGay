@@ -1,0 +1,43 @@
+@model BackSpotGay.Models.User;
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/stile.css">
+    <link rel="icon" href="~/image/spot-a-gay.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>UserInfo</title>
+</head>
+<body>
+ <div class="card_user">
+            <div class="user_avatar_edit">
+                <div class="user_avatar">
+                    <img src="" alt="">
+                </div>
+                <div class="user_edit">
+                    EDIT
+                </div>
+            </div>
+            <div class="user_info">
+                <div class="user_name">
+                    @Model.Login
+                </div>
+                <div class="user_password">
+                    <form method="POST" action="https://localhost:5001/Authorization/change">
+                        <input class="pass" type="password" placeholder="Password" name="password" required>
+                        <input class="pass" type="password" placeholder="Repeat password" name="repeatpassword" required>                        
+                        <input type="submit" class="send_pass"></input>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

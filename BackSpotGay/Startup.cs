@@ -29,6 +29,7 @@ namespace BackSpotGay
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IUserService, UserService>();
+            services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -49,6 +50,8 @@ namespace BackSpotGay
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseStaticFiles();
             
             app.UseAuthentication();
             app.UseAuthorization();

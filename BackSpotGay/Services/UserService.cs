@@ -3,6 +3,7 @@ using BackSpotGay.DAL;
 using BackSpotGay.Request;
 using BackSpotGay.Responses;
 using BackSpotGay.DAL.Models;
+using BackSpotGay.DAL.ReqestToBD;
 using BackSpotGay.Helpers;
 using BackSpotGay.Interfaces;
 
@@ -15,13 +16,14 @@ namespace BackSpotGay.Services
             var user = new User();
             user.Login = loginRequest.Username;
             user.Password = loginRequest.Password;
+            user.Id = GetId.GetById(user.Login);
             string token = "";
             if (!Chek.ChekExistUser(loginRequest.Username, loginRequest.Password))
             {
                 return null;
             }
             token = await Task.Run( () => TokenHelper.GenerateToken(user));
-            return new LoginResponse { Username = user.Login, Token = token };
+            return new LoginResponse {Id = user.Id, Username = user.Login, Token = token };
         }
     }
 }

@@ -1,0 +1,40 @@
+@page
+@model BackSpotGay.Views.Home.Authorization
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/stile.css">
+    <link rel="icon" href="~/image/spot-a-gay.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Spot-a-gay</title>
+</head>
+<body>
+    <div class="screen-authoriz">
+        <div class="authoreization-block">
+            <div class="authoreization-block__top">
+                <img class="logo" src="~/image/title.svg" alt="photo">
+            </div>
+            <h1>Authorization</h1>
+            <div class="authoreization-block__login">
+                <form class="login"method="POST" action="https://localhost:5001/Authorization/login">
+                    <input class="userl" type="text" placeholder="Username" name="user" required>
+                    <input class="userp" type="password" placeholder="Password" name="password" required>                        
+                    <button type="submit" class="signinbtn">Sign in</button>
+                </form>
+                <div class="authoreization-block__bottom">
+                    <a href="" style="color: black;">Forgot your password?</a>
+                    <a href="" style="color: black;">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

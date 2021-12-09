@@ -1,0 +1,38 @@
+@page
+@model BackSpotGay.Views.Home.Registration
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/stile.css">
+    <link rel="icon" href="~/image/spot-a-gay.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Spot-a-gay</title>
+</head>
+<body>
+<div class="screen-reg">
+<div class="reg-block">
+    <div class="reg-block__top">
+        <img class="logo" src="~/image/title.svg" alt="photo">
+    </div>
+    <h1>Registration</h1>
+    <div class="reg-block__login">
+        <form class="reg"method="POST" action="https://localhost:5001/Authorization/registration">
+            <input class="userl" type="text" placeholder="Login" name="login" required>
+            <input class="userp" type="password" placeholder="Password" name="password" required>
+            <input class="userp2" type="password" placeholder="Repeat password" name="repeatpassword" required>                        
+            <button type="submit" class="signupbtn">Sign up</button>
+        </form>
+    </div>
+            
+</div>
+</div>
+</body>
+</html>
