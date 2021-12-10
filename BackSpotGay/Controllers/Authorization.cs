@@ -85,6 +85,7 @@ namespace BackSpotGay.Controllers
             var user = new User() ;
             user.Login = userfromBd.Login;
             user.Password = userfromBd.Password;
+            user.PathAvatar = userfromBd.PathAvatar;
             return user;
         }
         

@@ -25,6 +25,14 @@ namespace BackSpotGay.DAL.ReqestToBD
                     User user = new User(); 
                     user.Login =(string) read.GetValue(1); 
                     user.Password = (string) read.GetValue(2);
+                    if(read.GetValue(3) != DBNull.Value)
+                        user.PathAvatar = (string)read.GetValue(3);
+                    else
+                    {
+                        user.PathAvatar = "";
+                    }
+                    
+                    
                     return user;
 
                 }

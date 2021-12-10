@@ -1,0 +1,27 @@
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/stile.css">
+    <link rel="icon" href="~/image/spot-a-gay.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <title>CreatePost</title>
+</head>
+<body>
+<div class="card_create">
+            <form method="post" action="https://localhost:5001/Home/AddPost" enctype="multipart/form-data">
+                <input class="text_post" type="text" placeholder="Введите текст поста" name="textpost" required/><br>
+                <input class="text_choose" type="file" name="uploadedFile" required/><br>
+                <input class="text_edit" type="submit" value="Загрузить пост" />
+            </form>
+        </div>
+</body>
+</html>

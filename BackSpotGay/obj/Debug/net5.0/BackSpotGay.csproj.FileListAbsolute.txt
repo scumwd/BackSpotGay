@@ -64,3 +64,8 @@
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/System.Interactive.Async.dll
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/Razor/Views/Home/Authorization.cshtml.g.cs
 /Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/Razor/Views/Home/UserInfo.cshtml.g.cs
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/scumwd/RiderProjects/BackSpotGay/BackSpotGay/obj/Debug/net5.0/Razor/Views/Home/CreatePost.cshtml.g.cs

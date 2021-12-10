@@ -19,13 +19,12 @@
 <body>
  <div class="card_user">
             <div class="user_avatar_edit">
-                <div class="user_avatar">
-                    <img src="" alt="">
-                </div>
-                <div class="user_edit">
-                    EDIT
-                </div>
-            </div>
+                            <img src= "@Url.Content(Model.PathAvatar)" class="user_avatar"></img>
+                            <form method="post" action="https://localhost:5001/Home/AddAvatar" enctype="multipart/form-data">
+                                <input class="user_choose" type="file" name="uploadedFile" /><br>
+                                <input class="user_edit" type="submit" value="Загрузить" />
+                            </form>
+                        </div>
             <div class="user_info">
                 <div class="user_name">
                     @Model.Login

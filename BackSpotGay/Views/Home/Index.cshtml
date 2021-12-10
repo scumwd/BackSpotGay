@@ -1,5 +1,4 @@
-@page
-@model BackSpotGay.Views.Home.Index
+@model List<BackSpotGay.Models.Post>
 
 @{
     Layout = "_Layout";
@@ -16,14 +15,13 @@
     </head>
     <body>  
     <div class="newspaper">
+    @foreach (var f in Model)
+    {
         <div class="new">
-            <p style="text-align: center;"><img src="~/image/gg.jpg" alt="" width="300" height="300" /></p>
-            <p></p>
+            <p style="text-align: center;"><img src="@Url.Content(f.TextPath)" alt="" width="300" height="300"/></p>
+            <p style="text-align: center;">@f.TextPost</p>
         </div>
-        <div class="new">
-            <p style="text-align: center;"><img src="~/image/gg.jpg" alt="" width="300" height="300" /></p>
-            <p>2</p>
-        </div>
+    }
     </div>
    
     </body>

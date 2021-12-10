@@ -7,6 +7,7 @@
     <ItemGroup>
         <PackageReference Include="Cookie" Version="4.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.12" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
@@ -18,9 +19,13 @@
     <ItemGroup>
       <Compile Remove="WeatherForecast.cs" />
       <Compile Remove="Controllers\WeatherForecastController.cs" />
+      <Compile Remove="Models\ApplicationContext.cs" />
+      <Compile Remove="Models\FileModel.cs" />
+      <Compile Remove="Controllers\Shared.cs" />
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="wwwroot\Files" />
       <Folder Include="wwwroot\image" />
     </ItemGroup>
 

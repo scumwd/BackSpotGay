@@ -4,5 +4,6 @@ namespace BackSpotGay.Models
     {
         public string Login { get; set; }
         public string Password { get; set; }
+        public string PathAvatar { get; set; }
     }
 }
